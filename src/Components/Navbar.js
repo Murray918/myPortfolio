@@ -24,7 +24,7 @@ export default class Navbar extends Component {
           </div>
         </div>
       </nav>
-      <div>
+      <div className = "container">
         {this.props.children}
       </div>
     </div>

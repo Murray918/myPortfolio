@@ -23,7 +23,7 @@ export default class BaseLayout extends Component {
           </div>
         </div>
       </nav>
-      <div>
+      <div className ="container siteTainer">
         {this.props.children}
       </div>
     </div>
