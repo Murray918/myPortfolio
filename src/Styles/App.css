@@ -1,0 +1,60 @@
+/*current palate*/
+
+/*#D6EAE8 super light
+#88CDCC dark greenish blue
+#A3E1CC seafoam
+#78ABD6 blue
+#7ACCB1 green
+#57A7A5 dark green*/
+
+body {
+
+
+  * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  line-height: 1.4;
+  font-family: 'franklin-gothic-urw', serif;
+  color: #221E1F; /*this is blue gray*/
+	background: #57A7A5; /*light blue*/
+
+}
+}
+
+.wrapper {
+  display: block;
+	margin: 0 auto;
+
+	.main & {
+	}
+}
+
+header {
+	float: left;
+	width: 100%;
+  color: white;
+	background-color: black;
+  margin-bottom: 20px;
+  padding: 20px;
+
+
+	.wrapper {
+
+		position: relative;
+		max-width: 35em;
+		padding: 2em 0;
+	}
+
+}
+
+
+.navWrap {
+  margin-top: 3.3em;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+
+}
