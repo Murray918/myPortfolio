@@ -430,7 +430,7 @@ margin: 0 auto;
       margin: 0 auto;
     }
 
-    .techWrap {
+    .techw-wrap {
       display: flex;
       justify-content: center;
     }
@@ -443,6 +443,9 @@ margin: 0 auto;
     position: relative;
     top: 0;
     bottom: initial;
+  }
+  .site-container {
+    padding-bottom: 450px;
   }
 }
 

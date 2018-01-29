@@ -25,6 +25,10 @@ body {
 }
 }
 
+.ReactModal__Content.ReactModal__Content--after-open{
+  margin: 15em;
+}
+
 .container {
   margin-bottom:
 }
@@ -55,10 +59,17 @@ header {
 
 }
 
+#closeButton {
+  padding-left: 100em
+}
 
-.navWrap {
+.nav-wrap {
   margin-top: 3.3em;
   margin-bottom: 1.5em;
   font-size: 1.2em;
 
+}
+
+.nav-text {
+  margin-left: 3.5em;
 }

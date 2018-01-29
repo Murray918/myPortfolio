@@ -1,33 +1,29 @@
-import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
-import './Styles/App.css'
+import React, { Component } from "react";
+// import { NavLink } from "react-router-dom";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <div >
-      <nav className = "hideNav">
-        <div className="container">
-          <div className="row navWrap">
-            <div className="two columns navText">
-              <NavLink to='/'>Home</NavLink>
-            </div>
-            <div className="two columns navText">
-              <NavLink to='/Projects'>Projects</NavLink>
-            </div>
-            <div className="two columns navText">
-              <NavLink to='/Bio'>Bio</NavLink>
-            </div>
-            <div className="two columns navText">
-              <NavLink activeClassName="selected" to="Tech">Tech</NavLink>
+      <div id = 'Navbar'>
+        <nav className = "hideNav">
+          <div  className = 'container'>
+            <div className="row nav-wrap">
+              <div className="two columns nav-text">
+                <a>Home</a>
+              </div>
+              <div className="two columns nav-text">
+                <a>Bio</a>
+              </div>
+              <div className="two columns nav-text">
+                <a>Tech</a>
+              </div>
+              <div className="two columns nav-text">
+                <a>Contact</a>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-      <div className = "container">
-        {this.props.children}
+        </nav>
       </div>
-    </div>
     );
   }
 }

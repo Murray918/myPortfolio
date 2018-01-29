@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import '../Styles/App.css';
+import Bio from './Bio'
+import Contact from './Contact';
+// import Projects from './Projects';
+import Tech from './Tech';
 
 
 export default class App extends Component {
   render() {
     return (
-      <div className="container">
-        <h1>Hello World</h1>
+      <div>
+        <div>
+        <h1> Andrew Murray Software Engeneer </h1>
+        </div>
+        <Bio />
+        <Tech />
+        <Contact />
       </div>
     );
   }
