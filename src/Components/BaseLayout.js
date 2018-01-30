@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
-import App from "./App";
 
 export default class BaseLayout extends Component {
   render() {
@@ -10,10 +8,9 @@ export default class BaseLayout extends Component {
         <div>
           <Navbar />
         </div>
-
         <div className="container site-container">
           <div>
-            <App />
+            {this.props.children}
           </div>
         </div>
       </div>

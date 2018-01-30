@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import BaseLayout from './BaseLayout'
 import Bio from './Bio'
-import Contact from './Contact';
-// import Projects from './Projects';
-import Tech from './Tech';
+import Tech from './Tech'
+import Contact from './Contact'
 
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <div>
-        <h1> Andrew Murray Software Engeneer </h1>
-        </div>
-        <Bio />
-        <Tech />
-        <Contact />
+        <BaseLayout>
+          <Bio />
+          <Tech />
+          <Contact />
+        </BaseLayout>
       </div>
     );
   }

@@ -7,69 +7,27 @@
 #7ACCB1 green
 #57A7A5 dark green*/
 
-body {
-
-
-  * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-	box-sizing: border-box;
+.ReactModal__Content.ReactModal__Content--after-open {
+	overflow: hidden;
+	margin-top: 15em;
+	margin-bottom: 15em;
+	margin-left: 25em;
+	margin-right: 25em;
 }
 
-body {
-  line-height: 1.4;
-  font-family: 'franklin-gothic-urw', serif;
-  color: #221E1F; /*this is blue gray*/
-	background: #57A7A5; /*light blue*/
-
-}
-}
-
-.ReactModal__Content.ReactModal__Content--after-open{
-  margin: 15em;
-}
-
-.container {
-  margin-bottom:
-}
-
-.wrapper {
-  display: block;
+#tech {
 	margin: 0 auto;
-
-	.main & {
-	}
-}
-
-header {
-	float: left;
-	width: 100%;
-  color: white;
-	background-color: black;
-  margin-bottom: 20px;
-  padding: 20px;
-
-
-	.wrapper {
-
-		position: relative;
-		max-width: 35em;
-		padding: 2em 0;
-	}
-
 }
 
 #closeButton {
-  padding-left: 100em
+	padding-left: 100em;
+}
+#contacts {
+	margin-bottom: 150px;
 }
 
 .nav-wrap {
-  margin-top: 3.3em;
-  margin-bottom: 1.5em;
-  font-size: 1.2em;
-
-}
-
-.nav-text {
-  margin-left: 3.5em;
+	margin-top: 3.3em;
+	margin-bottom: 1.5em;
+	font-size: 1.2em;
 }

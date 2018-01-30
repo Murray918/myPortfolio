@@ -3,15 +3,9 @@ import ReactDOM from 'react-dom';
 import './Styles/skeleton.css';
 import './Styles/normalize.css';
 import './Styles/App.css';
-import App from './Components/App';
 import registerServiceWorker from './registerServiceWorker';
-// import {BrowserRouter, Route, Switch} from 'react-router-dom';
-// import Bio from './Components/Bio'
-import BaseLayout from './Components/BaseLayout';
-// import Contact from './Components/Contact';
-// import Projects from './Components/Projects';
-// import Tech from './Components/Tech';
+import App from './Components/App'
 
-ReactDOM.render(<BaseLayout />
+ReactDOM.render(<App />
 , document.getElementById('root'));
 registerServiceWorker();
