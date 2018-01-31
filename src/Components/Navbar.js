@@ -4,28 +4,28 @@ import React, { Component } from 'react';
 export default class Navbar extends Component {
 	render() {
 		return (
-			<div id="Navbar">
+			<div id="navbar">
 				<nav className="hideNav">
 					<div className="container">
 						<div className="row nav-wrap">
 							<div className="two columns nav-text">
 								<a>
-									<h6>Home</h6>
+									<h5>Home</h5>
 								</a>
 							</div>
 							<div className="two columns nav-text">
 								<a>
-									<h6>Bio</h6>
+									<h5>Bio</h5>
 								</a>
 							</div>
 							<div className="two columns nav-text">
 								<a>
-									<h6>Tech</h6>
+									<h5>Tech</h5>
 								</a>
 							</div>
 							<div className="two columns nav-text">
 								<a>
-									<h6>Contact</h6>
+									<h5>Contact</h5>
 								</a>
 							</div>
 						</div>

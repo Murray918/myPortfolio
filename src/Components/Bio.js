@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 export default class Bio extends Component {
 	render() {
 		return (
-			<div id="Bio">
-				<h1>How did I get Here?</h1>
+			<div id="bio">
+				<h1>How did I get here?</h1>
+				<hr />
 				<h6 className="biography">
 					For the past five years or so as a luthier I was a immersed in an
 					field intensely tethered to detail and skill as making seemingly

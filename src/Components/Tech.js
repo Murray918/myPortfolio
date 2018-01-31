@@ -68,15 +68,30 @@ export default class Tech extends Component {
 						<div className="three columns">
 							<h4>Projects</h4>
 							<ul>
-								<li>party boys</li>
-								<li>party boys</li>
-								<li>party boys</li>
-								<li>party boys</li>
+								<li>
+									<a href="http://ericandre.com/fun/vatican/">PARTY BOYS</a>
+								</li>
+								<li>
+									<a href="http://ericandre.com/fun/vatican/">PARTY BOYS</a>
+								</li>
+								<li>
+									<a href="http://ericandre.com/fun/vatican/">PARTY BOYS</a>
+								</li>
+								<li>
+									<a href="http://ericandre.com/fun/vatican/">PARTY BOYS</a>
+								</li>
 							</ul>
 						</div>
 						<div className="five columns">{tech[this.state.itemId].svg}</div>
 					</div>
 				</ReactModal>
+				<h1>Tech Stack</h1>
+				<hr />
+				<h6>
+					These are some of the technologies I have been using along the way.
+					Please click on an icon to learn more about what I know about it and
+					view projects.
+				</h6>
 				<div className="row tech-wrap">{langs}</div>
 			</div>
 		);

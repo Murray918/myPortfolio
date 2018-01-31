@@ -15,6 +15,14 @@
 	margin-right: 25em;
 }
 
+.hideNav {
+	background: powderBlue;
+}
+
+#bio {
+	margin-bottom: 6em;
+}
+
 #tech {
 	margin: 0 auto;
 }
@@ -23,11 +31,12 @@
 	padding-left: 100em;
 }
 #contacts {
+	margin-top: 6em;
 	margin-bottom: 150px;
 }
 
 .nav-wrap {
-	margin-top: 3.3em;
+	margin-top: 2em;
 	margin-bottom: 1.5em;
 	font-size: 1.2em;
 }
